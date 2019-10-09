@@ -346,7 +346,7 @@ public class RichPath extends Path {
 
     void draw(Canvas canvas) {
 
-        updatePaint()
+        updatePaint();
 
         paint.setColor(applyAlpha(fillColor, fillAlpha));
         paint.setStyle(Paint.Style.FILL);
